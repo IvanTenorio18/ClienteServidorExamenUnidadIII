@@ -8,7 +8,7 @@ use routes\web;
 class vistacontroller extends Controller
 {
     function index(){
-        $romainfos = romainfos::all();
+        $romainfos = romainfo::all();
         $informacion=[];
         foreach($romainfos as $romainfos){
             $informacion[]=[
@@ -17,7 +17,7 @@ class vistacontroller extends Controller
                 'imagen'=>$romainfos->imagen,
             ];
         }
-        return view('vista/index',['informacion'=>$informacion]);
+        return view('vista.index',['informacion'=>$informacion]);
     }
 
     
