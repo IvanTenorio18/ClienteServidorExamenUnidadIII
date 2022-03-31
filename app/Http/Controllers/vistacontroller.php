@@ -8,7 +8,7 @@ use routes\web;
 class vistacontroller extends Controller
 {
     function index(){
-        $romainfos = romainfo::all();
+        $romainfos = romainfos::all();
         $informacion=[];
         foreach($romainfos as $romainfos){
             $informacion[]=[
