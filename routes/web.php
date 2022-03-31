@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\controllers\vistacontroller;
-use App\Http\controllers\apivistacontroller;
+use App\Http\Controllers\vistacontroller;
+use App\Http\Controllers\apivistacontroller;
 
 /*
 |--------------------------------------------------------------------------
