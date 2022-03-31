@@ -7,6 +7,7 @@
 <h1>Grupo: 2522IS</h1>
 <h1>Link Dominio: https://romainfo.herokuapp.com/
 Me salio un error de servidor con la base de datos, pero cuando lo corro en local si agarra bien.
-Se puede observar en el video.</h1>
+Se puede observar en el video.
+Donde iba a poner la vista de la API si agarra https://romainfo.herokuapp.com/getApi ya que esa vista no tiene conexion con la base de datos.</h1>
 <h1>Link Video:https://youtu.be/5sJlwJcgloY</h1>
 
